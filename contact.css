@@ -1,0 +1,56 @@
+
+.info {
+    height: 85vh;
+    width: 100vw;
+    /* background-color: red; */
+    
+    position: relative;
+}
+.info::after{
+    content:"";
+    background-image: url(https://blog.hubspot.com/hubfs/image-file-extensions.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    position: absolute;
+    width: 100%;
+    height: inherit;
+    opacity: .1;
+}
+.max-width2{
+    width: 95vw;
+    margin: auto;
+}
+.info h3{
+    position: relative;
+    top: 17px;
+    left: 180px;
+}
+.contact-detail{
+    position: relative;
+    top: 50px;
+    z-index: 1;
+}
+.submit:hover{
+    background-color: rgb(134, 8, 145);
+    color: white;
+    
+}
+.submit{
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 3px;
+    width: 80px;
+
+}
+.form-detail{
+    padding: 3px;
+}
+.contact-detail input,textarea{
+    
+    width: 500px;
+}
+.contact-detail input{
+    
+    height: 22px;
+}

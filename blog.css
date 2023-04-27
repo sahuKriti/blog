@@ -1,0 +1,44 @@
+
+.article{
+    height: 50vh;
+    display: flex;
+}
+.article-content{
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+}
+.article h4{
+    position: relative;
+    left: 10px;
+}
+.articleContentImg{
+    margin-left: 50px;
+    padding-top: 10px;
+}
+.read h3{
+    position: relative;
+    top: 33px;
+    left: 260px;
+}
+.infoBlog{
+    margin: auto;
+    height: 100vh;
+    background-color: rgb(231, 221, 221);
+}
+
+
+
+.infoBlog h2{
+    margin-bottom: 30px;
+    /* margin-top: 30px; */
+    display: flex;
+    justify-content: center;
+}
+.infoBlog p{
+    width: 40vw;
+    height: 90vh;
+    /* background-color: green; */
+    margin: auto;
+    
+}

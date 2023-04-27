@@ -1,0 +1,13 @@
+.article{
+    height: 90vh;
+
+}
+.year{
+    position: absolute;
+    top: 14vh;
+    right: 18vw;
+}
+.article h1{
+    padding-top: 10px;
+    font-size: 20px;
+}
